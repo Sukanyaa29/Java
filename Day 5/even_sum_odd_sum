@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number:");
+        int num=sc.nextInt();
+        int sum=0;
+        int even_sum=0;
+        int odd_sum=0;
+        while(num!=0){
+            int pop=num%10;
+            if(pop%2==0){
+                even_sum+=pop;
+            }
+            else{
+                odd_sum+=pop;
+            }
+            sum+=pop;
+            num=num/10;
+        }
+        System.out.println("sum:"+sum);
+        System.out.println("even sum:"+even_sum);
+        System.out.println("odd sum:"+odd_sum);
+    }
+}
