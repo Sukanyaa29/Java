@@ -1,0 +1,10 @@
+package Day10;
+
+public class upperandlower {
+    public static void main(String[]args){
+        String name="sukanyaa";
+        System.out.println(name.toUpperCase());
+        String name1="SUKANYAA";
+        System.out.println(name1.toLowerCase());
+    }
+}
