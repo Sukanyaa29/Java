@@ -1,0 +1,9 @@
+package Day_10;
+
+public class StringBuilder {
+    public static void main(String[] args) {
+        String name="hello";
+        String name2=name.toString();
+        System.out.println(name2.equals(name2));
+    }
+}
