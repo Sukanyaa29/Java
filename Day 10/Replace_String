@@ -1,0 +1,8 @@
+package Day_10;
+
+public class Replace_String {
+    public static void main(String[] args){
+        String str="hello";
+        System.out.println(str.replace('o','x'));
+    }
+}
