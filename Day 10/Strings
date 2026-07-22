@@ -1,0 +1,9 @@
+package Day_10;
+
+public class Strings {
+    public static void main(String[] args){
+        String name="hello";
+        String name1="hello";
+        System.out.println(name==name1);
+    }
+}
