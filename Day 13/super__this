@@ -1,0 +1,30 @@
+class A {
+    A() {
+        super();
+        System.out.println("print the value A");
+    }
+
+    A(int a) {
+        this();
+        System.out.println("print the value A" + a);
+    }
+}
+class B extends A {
+    B() {
+
+    }
+
+    B(int a, int b) {
+
+    }
+
+    B(int a) {
+        this();
+        System.out.println("print the value b" + a);
+    }
+}
+public class super__this {
+    public static void main(String[] args){
+        B b=new B(10);
+    }
+}
